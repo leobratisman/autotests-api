@@ -75,7 +75,7 @@ jobs:
       - name: Download allure results
         uses: actions/download-artifact@v5
         with:
-          name: allure_results
+          name: allure-results
           path: allure-results
       
       - name: Посмотреть результат allure
