@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDE5OjI4OjQ2LjQ3MzEyMyIsInVzZXJfaWQiOiJmZTY3Y2I5Zi0xNjg2LTQxNDMtYjJmYy0wMTMzYmMwYzJkZTIifQ.0fI4AWXmuD2ArJPlbLZycwCimwKvKqgyj0wkJsRHX3E' \
+  -H 'content-length: 324' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Adult operation soldier test.","maxScore":90,"minScore":11,"description":"Middle exist whom well economic out experience evening market different including collection center.","previewFileId":"1e0fd3f4-62df-4389-9769-bf4dc87c7e10","estimatedTime":"9 weeks","createdByUserId":"fe67cb9f-1686-4143-b2fc-0133bc0c2de2"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDE5OjI4OjQ4LjMwMjU4MiIsInVzZXJfaWQiOiJiM2QwM2EzOC05MGNhLTRkMzYtOTJkMi0xMTAyOWQxOGQyOGQifQ.R8K2eQLAgSRq3a6m2rEqWDG_O8YQ5t8ELKIqHdq5v9Q' \
+  -H 'content-length: 342' \
+  -H 'content-type: application/json' \
+  -d '{"title":"According together.","maxScore":78,"minScore":10,"description":"It happen system foot interview response information seat author blood source dream full site material describe should half tax.","previewFileId":"5b832f63-d3a0-4214-9fd2-cba11176d1fc","estimatedTime":"5 weeks","createdByUserId":"b3d03a38-90ca-4d36-92d2-11029d18d28d"}'

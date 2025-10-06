@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDE5OjI4OjQ5LjU0NDUyNSIsInVzZXJfaWQiOiI0OWY5ODE4MS0xYmM1LTQyNGMtYmE1YS05OTgwY2Q2ZjcwOGIifQ.NBva8A7WmSXNcRVb2Kq2kNgaluRDnti001p5YWPJiFo' \
+  -H 'content-length: 325' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Student radio along.","maxScore":68,"minScore":15,"description":"Low somebody live find task example you son wait well fight lose director decision ok individual of road fact.","previewFileId":"529fc804-d2e3-479d-a3c5-4ceb2740b7a3","estimatedTime":"3 weeks","createdByUserId":"49f98181-1bc5-424c-ba5a-9980cd6f708b"}'

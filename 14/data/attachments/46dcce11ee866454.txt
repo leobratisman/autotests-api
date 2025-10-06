@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDE5OjI4OjUwLjgyNTU1NyIsInVzZXJfaWQiOiI1YzFkMmQ4Ny1iYmFiLTQzYWYtOWQwYS0wMDU2MDE1NmJlZjQifQ.WNq9_gkOtOvu9NiPdBKSsr1nOmkYddbcVm1JBAH85SE' \
+  -H 'content-length: 278' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Area herself bank.","maxScore":84,"minScore":12,"description":"Than firm improve seven according range sure image whom politics.","previewFileId":"d92793ce-bddd-424f-afcf-e2b3d20f7332","estimatedTime":"4 weeks","createdByUserId":"5c1d2d87-bbab-43af-9d0a-00560156bef4"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDE5OjI4OjUwLjU1MTc0NCIsInVzZXJfaWQiOiJhYjY2YjkzZi1lNjhmLTRhNjctYmVlNC00OGE5MDQ5NDYwZDcifQ.nR3LyTdHxY656r8z8ESt_O7d7jDn6sQBa35HsTJb9jo' \
+  -H 'content-length: 301' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Above but region follow future.","maxScore":58,"minScore":10,"description":"Arrive language rich provide game help support coach product hit education.","previewFileId":"e334f2b5-04e9-4f0b-9d4a-df8b2fa57259","estimatedTime":"5 weeks","createdByUserId":"ab66b93f-e68f-4a67-bee4-48a9049460d7"}'

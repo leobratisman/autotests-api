@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDE5OjI4OjQ5LjI3MDg0NiIsInVzZXJfaWQiOiI1MjU1MmIyYS1kZjFkLTRmNjItODFhNi0zZTA5YTM1MGRiYzEifQ.D2d6YCL1pZHcIOV9mrqgioq--3vsNlEKNw4JJVtn_YE' \
+  -H 'content-length: 265' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Reason challenge upon.","maxScore":100,"minScore":13,"description":"Exist eye reach window spend hard in move trip.","previewFileId":"2c3cd858-e822-4e83-86aa-aa5a82ac77d1","estimatedTime":"3 weeks","createdByUserId":"52552b2a-df1d-4f62-81a6-3e09a350dbc1"}'

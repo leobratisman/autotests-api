@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/exercises' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDE5OjI4OjQ5LjU0NDUyNSIsInVzZXJfaWQiOiI0OWY5ODE4MS0xYmM1LTQyNGMtYmE1YS05OTgwY2Q2ZjcwOGIifQ.NBva8A7WmSXNcRVb2Kq2kNgaluRDnti001p5YWPJiFo' \
+  -H 'content-length: 259' \
+  -H 'content-type: application/json' \
+  -d '{"title":"High close recent culture.","courseId":"31f44211-016a-4f87-b6a9-244e737ffdfd","maxScore":80,"minScore":24,"orderIndex":11,"description":"Lot mother just soon rest available group current generation resource before others.","estimatedTime":"2 weeks"}'

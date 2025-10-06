@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDE5OjI4OjQ4LjAyNDg5MCIsInVzZXJfaWQiOiJjMDM4NjNjYS1mZDM2LTQ4ZDYtOTM4Ny05NTY0NjIwODY4MDQifQ.w4apZ3BTrUvDrCgc25ZNDgpQQVGfk375UsxHwbbJBi8' \
+  -H 'content-length: 345' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Require speech already.","maxScore":52,"minScore":20,"description":"Fine office find at five now three cover when ahead capital material occur experience control white wrong situation collection.","previewFileId":"1d6bd322-1157-4af5-a22c-a2190cbb314b","estimatedTime":"5 weeks","createdByUserId":"c03863ca-fd36-48d6-9387-956462086804"}'
