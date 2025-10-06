@@ -59,7 +59,7 @@ jobs:
           TIMEOUT: 2
           TEST_DATA_DIR: ./static/
         run: |
-          poetry run pytest -m regression --alluredir=allure-results --numprocesses 2
+          poetry run pytest -m regress --alluredir=allure-results --numprocesses 2
 
       # 9. Шаг для получения истории отчётов Allure, если она существует
       - name: Get Allure history
