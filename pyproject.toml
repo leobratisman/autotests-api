@@ -16,7 +16,8 @@ dependencies = [
     "faker (>=37.8.0,<38.0.0)",
     "pytest-rerunfailures (>=16.0.1,<17.0.0)",
     "allure-pytest (>=2.15.0,<3.0.0)",
-    "httpx (>=0.28.1,<0.29.0)"
+    "httpx (>=0.28.1,<0.29.0)",
+    "pydantic-settings (>=2.11.0,<3.0.0)"
 ]
 
 
