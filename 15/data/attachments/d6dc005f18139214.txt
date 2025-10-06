@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/exercises' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDE5OjM0OjAwLjM1NjU1MyIsInVzZXJfaWQiOiIyNzAxN2M2ZC1kNTcyLTRlMjAtYmQ0My1iZDU4YjNjYTA2OGIifQ.s1OuFQRA_H0ECi5uPhkuB62Gzlo01jDwQXBiTL3p2F0' \
+  -H 'content-length: 257' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bit I community meet.","courseId":"a3790900-ddd0-480c-b77c-ec217a83d8e3","maxScore":96,"minScore":10,"orderIndex":14,"description":"Mrs blood property lose current cultural risk upon career task on company to president.","estimatedTime":"2 weeks"}'

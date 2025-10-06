@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDE5OjMzOjU5LjY4MDEwNCIsInVzZXJfaWQiOiIzY2Y4MWFjNi1iOWQ5LTQwNzItYTY2Yi0zNDMxMzhjODk3MDcifQ.RK_o5uU2N7RbekLB4u0C4bfahzBdUAkUkUfGlTxs5-s' \
+  -H 'content-length: 342' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Billion health group main.","maxScore":58,"minScore":19,"description":"Bit month somebody concern thousand boy have door risk pay myself nor old beautiful office together want school response.","previewFileId":"3a80695d-d690-4c12-a817-50ef3f9a8cce","estimatedTime":"8 weeks","createdByUserId":"3cf81ac6-b9d9-4072-a66b-343138c89707"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDE5OjM0OjAzLjE1NTkwNiIsInVzZXJfaWQiOiIxMTI4ZDM2MC02MTI5LTQ2OTAtYmMzMi1mNzM1OWZmNjcxMDcifQ.u9UtYom2IRmzHvUtDebVQ8NsmJg01RRfQSO7Fgdwh9I' \
+  -H 'content-length: 271' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Game point late.","maxScore":63,"minScore":25,"description":"Wish century page world military more ahead art sport happy.","previewFileId":"0b76234a-eaa9-4ee4-855b-9626f0255a87","estimatedTime":"7 weeks","createdByUserId":"1128d360-6129-4690-bc32-f7359ff67107"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/exercises' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDE5OjMzOjU5LjY4MDEwNCIsInVzZXJfaWQiOiIzY2Y4MWFjNi1iOWQ5LTQwNzItYTY2Yi0zNDMxMzhjODk3MDcifQ.RK_o5uU2N7RbekLB4u0C4bfahzBdUAkUkUfGlTxs5-s' \
+  -H 'content-length: 264' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Opportunity arrive improve sense.","courseId":"4a29187a-281e-4985-a2ad-c07f5fbb75fc","maxScore":77,"minScore":30,"orderIndex":27,"description":"They painting quickly public own seven town home thousand win save research start.","estimatedTime":"8 weeks"}'

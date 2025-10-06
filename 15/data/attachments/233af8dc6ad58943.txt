@@ -1,0 +1,40 @@
+INFO     HTTP_CLIENT:event_hooks.py:16 Make POST request to http://127.0.0.1:8000/api/v1/users
+INFO     httpx:_client.py:1025 HTTP Request: POST http://127.0.0.1:8000/api/v1/users "HTTP/1.1 200 OK"
+INFO     HTTP_CLIENT:event_hooks.py:20 Got response 200 OK from http://127.0.0.1:8000/api/v1/users
+INFO     JSON SCHEMA ASSERTIONS:schema.py:13 Validate JSON-schema
+INFO     HTTP_CLIENT:event_hooks.py:16 Make POST request to http://127.0.0.1:8000/api/v1/authentication/login
+INFO     httpx:_client.py:1025 HTTP Request: POST http://127.0.0.1:8000/api/v1/authentication/login "HTTP/1.1 200 OK"
+INFO     HTTP_CLIENT:event_hooks.py:20 Got response 200 OK from http://127.0.0.1:8000/api/v1/authentication/login
+INFO     JSON SCHEMA ASSERTIONS:schema.py:13 Validate JSON-schema
+INFO     HTTP_CLIENT:event_hooks.py:16 Make POST request to http://127.0.0.1:8000/api/v1/files
+INFO     httpx:_client.py:1025 HTTP Request: POST http://127.0.0.1:8000/api/v1/files "HTTP/1.1 200 OK"
+INFO     HTTP_CLIENT:event_hooks.py:20 Got response 200 OK from http://127.0.0.1:8000/api/v1/files
+INFO     JSON SCHEMA ASSERTIONS:schema.py:13 Validate JSON-schema
+INFO     HTTP_CLIENT:event_hooks.py:16 Make POST request to http://127.0.0.1:8000/api/v1/courses
+INFO     httpx:_client.py:1025 HTTP Request: POST http://127.0.0.1:8000/api/v1/courses "HTTP/1.1 200 OK"
+INFO     HTTP_CLIENT:event_hooks.py:20 Got response 200 OK from http://127.0.0.1:8000/api/v1/courses
+INFO     JSON SCHEMA ASSERTIONS:schema.py:13 Validate JSON-schema
+INFO     HTTP_CLIENT:event_hooks.py:16 Make GET request to http://127.0.0.1:8000/api/v1/courses/37d2ca5b-dbda-45c0-aeb8-bfbbf3855499
+INFO     httpx:_client.py:1025 HTTP Request: GET http://127.0.0.1:8000/api/v1/courses/37d2ca5b-dbda-45c0-aeb8-bfbbf3855499 "HTTP/1.1 200 OK"
+INFO     HTTP_CLIENT:event_hooks.py:20 Got response 200 OK from http://127.0.0.1:8000/api/v1/courses/37d2ca5b-dbda-45c0-aeb8-bfbbf3855499
+INFO     JSON SCHEMA ASSERTIONS:schema.py:13 Validate JSON-schema
+INFO     BASE ASSERTIONS:base.py:10 Check that respoonse status code equals to 200
+INFO     COURSES ASSERTIONS:courses.py:52 Check get course response
+INFO     COURSES ASSERTIONS:courses.py:27 Check course
+INFO     BASE ASSERTIONS:base.py:20 Check that 'id' equals to '37d2ca5b-dbda-45c0-aeb8-bfbbf3855499'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'title' equals to 'Very state service movie.'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'max_score' equals to '58'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'min_score' equals to '28'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'description' equals to 'Fly notice size cold program serious knowledge really nothing mind after beat effect also effect nearly turn natural reveal Mrs.'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'estimated_time' equals to '5 weeks'
+INFO     USERS ASSERTIONS:users.py:22 Check user
+INFO     BASE ASSERTIONS:base.py:20 Check that 'id' equals to '22f95f6b-5303-458c-9514-ab9fc3d1dd34'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'email' equals to 'loretta16@example.net'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'last_name' equals to 'Powell'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'first_name' equals to 'Jennifer'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'middle_name' equals to 'Jeremy'
+INFO     FILES ASSERTIONS:files.py:23 Check file
+INFO     BASE ASSERTIONS:base.py:20 Check that 'id' equals to '355027b0-808f-4975-8dae-761f64b7b89c'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'url' equals to 'http://localhost:8000/static/tests/879c28f8-741b-4ac4-bd5b-66be05dbfaff'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'filename' equals to '879c28f8-741b-4ac4-bd5b-66be05dbfaff'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'directory' equals to 'tests'

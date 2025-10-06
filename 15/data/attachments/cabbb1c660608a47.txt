@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://127.0.0.1:8000/api/v1/courses/c845cbd1-7326-49f6-90da-97cea13b2eae' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDE5OjMzOjU5LjAzODAyNyIsInVzZXJfaWQiOiI0ODgwY2I1Ny03MjkwLTRkNjYtYmQ1ZC04NThkMDdhYjBmOGUifQ.mAsDFsmnxPV1HrhN-c95YlRuBST5CyWGCplHr9yYRfM' \
+  -H 'content-length: 196' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Market face poor.","maxScore":67,"minScore":18,"description":"Energy none same word other point need feel forward total how feeling when just science lawyer.","estimatedTime":"10 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDE5OjMzOjU1LjkxMzY5OSIsInVzZXJfaWQiOiIyMmY5NWY2Yi01MzAzLTQ1OGMtOTUxNC1hYjlmYzNkMWRkMzQifQ.zaKyJnn2x2Wnfj4a_zZ8qoKxpwhOeioUGEdOa7xyjT8' \
+  -H 'content-length: 348' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Very state service movie.","maxScore":58,"minScore":28,"description":"Fly notice size cold program serious knowledge really nothing mind after beat effect also effect nearly turn natural reveal Mrs.","previewFileId":"355027b0-808f-4975-8dae-761f64b7b89c","estimatedTime":"5 weeks","createdByUserId":"22f95f6b-5303-458c-9514-ab9fc3d1dd34"}'

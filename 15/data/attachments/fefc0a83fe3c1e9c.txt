@@ -1,0 +1,64 @@
+INFO     HTTP_CLIENT:event_hooks.py:16 Make POST request to http://127.0.0.1:8000/api/v1/users
+INFO     httpx:_client.py:1025 HTTP Request: POST http://127.0.0.1:8000/api/v1/users "HTTP/1.1 200 OK"
+INFO     HTTP_CLIENT:event_hooks.py:20 Got response 200 OK from http://127.0.0.1:8000/api/v1/users
+INFO     JSON SCHEMA ASSERTIONS:schema.py:13 Validate JSON-schema
+INFO     HTTP_CLIENT:event_hooks.py:16 Make POST request to http://127.0.0.1:8000/api/v1/authentication/login
+INFO     httpx:_client.py:1025 HTTP Request: POST http://127.0.0.1:8000/api/v1/authentication/login "HTTP/1.1 200 OK"
+INFO     HTTP_CLIENT:event_hooks.py:20 Got response 200 OK from http://127.0.0.1:8000/api/v1/authentication/login
+INFO     JSON SCHEMA ASSERTIONS:schema.py:13 Validate JSON-schema
+INFO     HTTP_CLIENT:event_hooks.py:16 Make POST request to http://127.0.0.1:8000/api/v1/files
+INFO     httpx:_client.py:1025 HTTP Request: POST http://127.0.0.1:8000/api/v1/files "HTTP/1.1 200 OK"
+INFO     HTTP_CLIENT:event_hooks.py:20 Got response 200 OK from http://127.0.0.1:8000/api/v1/files
+INFO     JSON SCHEMA ASSERTIONS:schema.py:13 Validate JSON-schema
+INFO     HTTP_CLIENT:event_hooks.py:16 Make POST request to http://127.0.0.1:8000/api/v1/courses
+INFO     httpx:_client.py:1025 HTTP Request: POST http://127.0.0.1:8000/api/v1/courses "HTTP/1.1 200 OK"
+INFO     HTTP_CLIENT:event_hooks.py:20 Got response 200 OK from http://127.0.0.1:8000/api/v1/courses
+INFO     JSON SCHEMA ASSERTIONS:schema.py:13 Validate JSON-schema
+INFO     HTTP_CLIENT:event_hooks.py:16 Make POST request to http://127.0.0.1:8000/api/v1/exercises
+INFO     httpx:_client.py:1025 HTTP Request: POST http://127.0.0.1:8000/api/v1/exercises "HTTP/1.1 200 OK"
+INFO     HTTP_CLIENT:event_hooks.py:20 Got response 200 OK from http://127.0.0.1:8000/api/v1/exercises
+INFO     JSON SCHEMA ASSERTIONS:schema.py:13 Validate JSON-schema
+INFO     BASE ASSERTIONS:base.py:10 Check that respoonse status code equals to 200
+INFO     HTTP_CLIENT:event_hooks.py:16 Make POST request to http://127.0.0.1:8000/api/v1/exercises
+INFO     httpx:_client.py:1025 HTTP Request: POST http://127.0.0.1:8000/api/v1/exercises "HTTP/1.1 200 OK"
+INFO     HTTP_CLIENT:event_hooks.py:20 Got response 200 OK from http://127.0.0.1:8000/api/v1/exercises
+INFO     JSON SCHEMA ASSERTIONS:schema.py:13 Validate JSON-schema
+INFO     BASE ASSERTIONS:base.py:10 Check that respoonse status code equals to 200
+INFO     HTTP_CLIENT:event_hooks.py:16 Make POST request to http://127.0.0.1:8000/api/v1/exercises
+INFO     httpx:_client.py:1025 HTTP Request: POST http://127.0.0.1:8000/api/v1/exercises "HTTP/1.1 200 OK"
+INFO     HTTP_CLIENT:event_hooks.py:20 Got response 200 OK from http://127.0.0.1:8000/api/v1/exercises
+INFO     JSON SCHEMA ASSERTIONS:schema.py:13 Validate JSON-schema
+INFO     BASE ASSERTIONS:base.py:10 Check that respoonse status code equals to 200
+INFO     HTTP_CLIENT:event_hooks.py:16 Make GET request to http://127.0.0.1:8000/api/v1/exercises?courseId=a3790900-ddd0-480c-b77c-ec217a83d8e3
+INFO     httpx:_client.py:1025 HTTP Request: GET http://127.0.0.1:8000/api/v1/exercises?courseId=a3790900-ddd0-480c-b77c-ec217a83d8e3 "HTTP/1.1 200 OK"
+INFO     HTTP_CLIENT:event_hooks.py:20 Got response 200 OK from http://127.0.0.1:8000/api/v1/exercises?courseId=a3790900-ddd0-480c-b77c-ec217a83d8e3
+INFO     JSON SCHEMA ASSERTIONS:schema.py:13 Validate JSON-schema
+INFO     BASE ASSERTIONS:base.py:10 Check that respoonse status code equals to 200
+INFO     EXERCISES ASSERTIONS:exercises.py:58 Check get exercises response
+INFO     EXERCISES ASSERTIONS:exercises.py:24 Check exercise
+INFO     BASE ASSERTIONS:base.py:20 Check that 'id' equals to '80ce6944-e242-43ff-a513-f11e648f7be8'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'title' equals to 'Prepare minute goal.'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'course_id' equals to 'a3790900-ddd0-480c-b77c-ec217a83d8e3'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'max_score' equals to '59'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'min_score' equals to '11'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'description' equals to 'World area west which page safe trial outside manager suffer.'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'order_index' equals to '22'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'estimated_time' equals to '9 weeks'
+INFO     EXERCISES ASSERTIONS:exercises.py:24 Check exercise
+INFO     BASE ASSERTIONS:base.py:20 Check that 'id' equals to 'd8a10164-8025-4cdf-9aaf-a28dba45dd64'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'title' equals to 'Bit I community meet.'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'course_id' equals to 'a3790900-ddd0-480c-b77c-ec217a83d8e3'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'max_score' equals to '96'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'min_score' equals to '10'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'description' equals to 'Mrs blood property lose current cultural risk upon career task on company to president.'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'order_index' equals to '14'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'estimated_time' equals to '2 weeks'
+INFO     EXERCISES ASSERTIONS:exercises.py:24 Check exercise
+INFO     BASE ASSERTIONS:base.py:20 Check that 'id' equals to '7b6c90ec-6ca1-437d-9abc-0d92f79b96cb'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'title' equals to 'Little two yet never.'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'course_id' equals to 'a3790900-ddd0-480c-b77c-ec217a83d8e3'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'max_score' equals to '51'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'min_score' equals to '29'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'description' equals to 'Throughout where process politics require partner example fire piece himself.'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'order_index' equals to '24'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'estimated_time' equals to '5 weeks'

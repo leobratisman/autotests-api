@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDE5OjM0OjAxLjY1Mjk0NSIsInVzZXJfaWQiOiJkZDYyYmMxNy1lN2I1LTRkNTAtYTQwYi1jYjdiOGY5NjFmYmEifQ.J8asTZN2bWBlAkOuD-Mogrhp2D_JFt4yvAXZv-e-F6U' \
+  -H 'content-length: 292' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Because ever best.","maxScore":91,"minScore":19,"description":"Alone war some production break here level you organization marriage color see.","previewFileId":"78b9155c-e129-4fcb-a9ef-fe2481a9795c","estimatedTime":"7 weeks","createdByUserId":"dd62bc17-e7b5-4d50-a40b-cb7b8f961fba"}'

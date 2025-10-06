@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDE5OjM0OjAwLjM1NjU1MyIsInVzZXJfaWQiOiIyNzAxN2M2ZC1kNTcyLTRlMjAtYmQ0My1iZDU4YjNjYTA2OGIifQ.s1OuFQRA_H0ECi5uPhkuB62Gzlo01jDwQXBiTL3p2F0' \
+  -H 'content-length: 269' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Really almost I last.","maxScore":89,"minScore":24,"description":"While himself sometimes ever cover film I choose who.","previewFileId":"9c676556-4699-43f0-a0fc-33c2868f350a","estimatedTime":"4 weeks","createdByUserId":"27017c6d-d572-4e20-bd43-bd58b3ca068b"}'

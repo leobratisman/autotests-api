@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDE5OjMzOjU4LjM3ODI1NyIsInVzZXJfaWQiOiJiOTNjNjE4Ni1jMDk1LTRhZmItYjZkNi04YTY1MTJjZDkzMGQifQ.CaT8gO-8--I-Y38qb1jTPRDJO7M53ZcRjOcq6NWCiis' \
+  -H 'content-length: 328' \
+  -H 'content-type: application/json' \
+  -d '{"title":"To adult of.","maxScore":95,"minScore":15,"description":"Son town watch prevent since tough suffer exactly see current station head military five cut little hope attorney manage.","previewFileId":"bae4c37f-ff83-4555-b708-3ef748d5c06a","estimatedTime":"8 weeks","createdByUserId":"b93c6186-c095-4afb-b6d6-8a6512cd930d"}'

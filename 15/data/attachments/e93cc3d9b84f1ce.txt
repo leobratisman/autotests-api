@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDE5OjMzOjU3LjM5NjM0MyIsInVzZXJfaWQiOiIzM2Q5OGNlMy03NDZjLTQzYmItYjhkZi0wZTBmMWJiZTIzZWQifQ.Ym7MH9ajQiluqDRh6kfs5UfnCovwbnzUSjM9_zjNMzI' \
+  -H 'content-length: 283' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Stock hit value act.","maxScore":94,"minScore":27,"description":"Talk move him goal whom common pattern their soldier high determine.","previewFileId":"e9c20822-9b31-4f95-8a61-16a5c13ed94d","estimatedTime":"9 weeks","createdByUserId":"33d98ce3-746c-43bb-b8df-0e0f1bbe23ed"}'

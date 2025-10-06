@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDE5OjMzOjU5LjAzODAyNyIsInVzZXJfaWQiOiI0ODgwY2I1Ny03MjkwLTRkNjYtYmQ1ZC04NThkMDdhYjBmOGUifQ.mAsDFsmnxPV1HrhN-c95YlRuBST5CyWGCplHr9yYRfM' \
+  -H 'content-length: 314' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Magazine pressure box mission.","maxScore":70,"minScore":30,"description":"Cause expert upon power brother major technology often technology require we tough white.","previewFileId":"a42a8177-ec01-4d1c-b4ba-01321a7f16a4","estimatedTime":"7 weeks","createdByUserId":"4880cb57-7290-4d66-bd5d-858d07ab0f8e"}'
