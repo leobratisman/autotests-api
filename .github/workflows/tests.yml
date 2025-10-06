@@ -53,6 +53,11 @@ jobs:
 
       # 8. Шаг для запуска тестов с использованием pytest и генерации отчётов Allure
       - name: Run API tests with pytest and generate Allure results
+        env:
+          API_BASE_URL: http://127.0.0.1:8000/api/v1
+          API_AUTH_URL: http://127.0.0.1:8000/api/v1/authentication
+          TIMEOUT: 2
+          TEST_DATA_DIR: ./static/
         run: |
           poetry run pytest -m regression --alluredir=allure-results --numprocesses 2
 
