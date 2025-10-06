@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDE4OjUzOjM3LjIwODIxMyIsInVzZXJfaWQiOiJkZTdjNWUwMC05NGU2LTQ3NjYtODI4Yi00MDg0YWFjZGNjMDkifQ._zk7BcpZXrUdj2GK0ut-T73k3qritXRu4eQx4SU4G8c' \
+  -H 'content-length: 319' \
+  -H 'content-type: application/json' \
+  -d '{"title":"His provide deep.","maxScore":53,"minScore":20,"description":"Test federal kitchen three direction write charge pattern wear they people impact leader yet maintain road.","previewFileId":"60201f43-1ccb-4a09-ac59-f50ef9d3e427","estimatedTime":"9 weeks","createdByUserId":"de7c5e00-94e6-4766-828b-4084aacdcc09"}'

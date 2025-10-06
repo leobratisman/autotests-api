@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://127.0.0.1:8000/api/v1/exercises/2bd37b70-709b-40d3-a67a-f3f722ec301a' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDE4OjUzOjM4LjIyNTQ3OSIsInVzZXJfaWQiOiI3NTJkMjc1OS0xNTZiLTQ2ZmYtYTE4Yi0zM2RiOWI4YjEwOWIifQ.IsZXasn1BlVAycJfJ9SNKgUz1us4QYOcpY6Y0o7B-7g' \
+  -H 'content-length: 184' \
+  -H 'content-type: application/json' \
+  -d '{"title":"One left group tax.","maxScore":61,"minScore":10,"orderIndex":1,"description":"Employee include lot character for rest when rather action project.","estimatedTime":"8 weeks"}'

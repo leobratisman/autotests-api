@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDE4OjUzOjM4LjQ5ODUxNSIsInVzZXJfaWQiOiJlMTgxNjZmNy0wYjFlLTQ3NmUtOGFkZC02NzAxNzFmOThiMTQifQ.ZSEqGrafx-mH2-Tgx1AoIrRdPIyYDNCo2RMxQbIjuAw' \
+  -H 'content-length: 321' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Tax sense grow.","maxScore":50,"minScore":24,"description":"Trouble drop high similar consumer whole player collection discussion buy young heavy get with institution how.","previewFileId":"553345c2-372e-411a-862c-133d5865b40e","estimatedTime":"7 weeks","createdByUserId":"e18166f7-0b1e-476e-8add-670171f98b14"}'

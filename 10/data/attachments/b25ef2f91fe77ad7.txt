@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDE4OjUzOjM0LjcyMjE1OCIsInVzZXJfaWQiOiIwMWIxZWQyOS04YWNjLTQ5MWYtODBiZC05MDUyODljMTBmMTQifQ.AWguy-8_pznWAVUolKN_dAW_MetLon2kOsddR61YIwM' \
+  -H 'content-length: 311' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Manage although.","maxScore":60,"minScore":17,"description":"Career wrong truth decade serve possible rather pressure reduce here eye begin really defense class.","previewFileId":"fba354f3-e30c-4a7d-bc1a-d8537c577084","estimatedTime":"6 weeks","createdByUserId":"01b1ed29-8acc-491f-80bd-905289c10f14"}'

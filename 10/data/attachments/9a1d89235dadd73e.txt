@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDE4OjUzOjM1LjY4NjA1MiIsInVzZXJfaWQiOiJmZWQ3OGNhMy02N2Y0LTQxMTgtYTQ3MC1jZmJhZmYwMzIzNjcifQ.BLEWeKYLBYgtxMyR408QydpJOlORldcu5fhZGlTpKgM' \
+  -H 'content-length: 256' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Safe adult.","maxScore":97,"minScore":11,"description":"Mind bad media among PM consumer find treat young.","previewFileId":"6afb0e37-6022-4f46-ae55-c32c31cd2f7e","estimatedTime":"7 weeks","createdByUserId":"fed78ca3-67f4-4118-a470-cfbaff032367"}'

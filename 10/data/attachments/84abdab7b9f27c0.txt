@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDE4OjUzOjM5LjI1MTM4NCIsInVzZXJfaWQiOiI5NGE3ZjNiOS0wZjg4LTQyMTQtOGEwMC01MDNkNGU5NTg1NTQifQ.q5yTJPZwr4X1OieQKYUcNkq1lF0DPyvzT_KOHY1_H0c' \
+  -H 'content-length: 279' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hit outside pass.","maxScore":85,"minScore":30,"description":"Close statement language wear various continue year big happy wall.","previewFileId":"982ab343-677b-414c-a717-b626f0dc91d8","estimatedTime":"3 weeks","createdByUserId":"94a7f3b9-0f88-4214-8a00-503d4e958554"}'

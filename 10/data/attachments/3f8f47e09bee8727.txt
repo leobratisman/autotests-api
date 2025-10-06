@@ -1,0 +1,23 @@
+INFO     HTTP_CLIENT:event_hooks.py:16 Make POST request to http://127.0.0.1:8000/api/v1/users
+INFO     httpx:_client.py:1025 HTTP Request: POST http://127.0.0.1:8000/api/v1/users "HTTP/1.1 200 OK"
+INFO     HTTP_CLIENT:event_hooks.py:20 Got response 200 OK from http://127.0.0.1:8000/api/v1/users
+INFO     JSON SCHEMA ASSERTIONS:schema.py:13 Validate JSON-schema
+INFO     HTTP_CLIENT:event_hooks.py:16 Make POST request to http://127.0.0.1:8000/api/v1/authentication/login
+INFO     httpx:_client.py:1025 HTTP Request: POST http://127.0.0.1:8000/api/v1/authentication/login "HTTP/1.1 200 OK"
+INFO     HTTP_CLIENT:event_hooks.py:20 Got response 200 OK from http://127.0.0.1:8000/api/v1/authentication/login
+INFO     JSON SCHEMA ASSERTIONS:schema.py:13 Validate JSON-schema
+INFO     HTTP_CLIENT:event_hooks.py:16 Make POST request to http://127.0.0.1:8000/api/v1/files
+INFO     httpx:_client.py:1025 HTTP Request: POST http://127.0.0.1:8000/api/v1/files "HTTP/1.1 422 Unprocessable Content"
+INFO     HTTP_CLIENT:event_hooks.py:20 Got response 422 Unprocessable Content from http://127.0.0.1:8000/api/v1/files
+ERROR    BaseHTTPClient:files_client.py:61 Failed to create file: Client error '422 Unprocessable Content' for url 'http://127.0.0.1:8000/api/v1/files'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422
+INFO     BASE ASSERTIONS:base.py:10 Check that respoonse status code equals to 422
+INFO     FILES ASSERTIONS:files.py:74 Check create file with empty directory response
+INFO     ERRORS ASSERTIONS:errors.py:26 Check validation error from response
+INFO     BASE ASSERTIONS:base.py:39 Check that 'details' length equals to 1
+INFO     ERRORS ASSERTIONS:errors.py:13 Check validation error schema
+INFO     BASE ASSERTIONS:base.py:20 Check that 'type' equals to 'string_too_short'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'input' equals to ''
+INFO     BASE ASSERTIONS:base.py:20 Check that 'context' equals to '{'min_length': 1}'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'message' equals to 'String should have at least 1 character'
+INFO     BASE ASSERTIONS:base.py:20 Check that 'location' equals to '['body', 'directory']'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/api/v1/courses' \
+  -H 'host: 127.0.0.1:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEwLTA2VDE4OjUzOjMyLjYyMjUwNCIsInVzZXJfaWQiOiIyZDFmZWM0OC0xMTBjLTQ0NTQtOTI5Yi03ZjdhNDM5ODhjNTkifQ.4Xs_xdX13YkimePHWSAYJ93n6wEj6icghrXvU2YyO28' \
+  -H 'content-length: 329' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Industry firm have learn.","maxScore":92,"minScore":15,"description":"Their investment too task more top maintain happen today opportunity expect out available life ok image meet.","previewFileId":"8598288d-6735-42b2-9119-49b8a1bdf742","estimatedTime":"4 weeks","createdByUserId":"2d1fec48-110c-4454-929b-7f7a43988c59"}'
