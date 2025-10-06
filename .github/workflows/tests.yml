@@ -51,6 +51,10 @@ jobs:
       - name: Install dependencies
         run: poetry install --no-root
 
+      # 7. Шаг для активации виртуального окружения
+      - name: Env Activate
+        run: poetry env activate
+
       # 8. Шаг для запуска тестов с использованием pytest и генерации отчётов Allure
       - name: Run API tests with pytest and generate Allure results
         run: |
