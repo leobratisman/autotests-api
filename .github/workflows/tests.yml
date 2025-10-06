@@ -42,18 +42,21 @@ jobs:
           JWT_REFRESH_TOKEN_EXPIRE: 5184000
         run: uvicorn main:app --host 0.0.0.0 --port 8000 --app-dir ./qa-automation-engineer-api-course &
 
-      # 6. Шаг для установки всех зависимостей проекта
-      - name: Install dependencies
+      # 6. Шаг для установки Poetry
+      - name: Install Poetry
         run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          curl -sSL https://install.python-poetry.org | python3 -
 
-      # 7. Шаг для запуска тестов с использованием pytest и генерации отчётов Allure
+      # 7. Шаг для установки всех зависимостей проекта
+      - name: Install dependencies
+        run: poetry install
+
+      # 8. Шаг для запуска тестов с использованием pytest и генерации отчётов Allure
       - name: Run API tests with pytest and generate Allure results
         run: |
-          pytest -m regression --alluredir=allure-results --numprocesses 2
+          poetry run pytest -m regression --alluredir=allure-results --numprocesses 2
 
-      # 8. Шаг для получения истории отчётов Allure, если она существует
+      # 9. Шаг для получения истории отчётов Allure, если она существует
       - name: Get Allure history
         uses: actions/checkout@v5
         if: always()
@@ -62,7 +65,7 @@ jobs:
           ref: gh-pages
           path: gh-pages
 
-      # 9. Шаг для генерации и отображения отчёта Allure
+      # 10. Шаг для генерации и отображения отчёта Allure
       - name: Generates Allure Report with history
         uses: simple-elf/allure-report-action@v1.12
         if: always()
@@ -70,7 +73,7 @@ jobs:
           allure_results: allure-results
           allure_history: allure-history
 
-      # 10. Шаг для деплоя отчёта Allure на GitHub Pages, чтобы его можно было просматривать в браузере
+      # 11. Шаг для деплоя отчёта Allure на GitHub Pages, чтобы его можно было просматривать в браузере
       - name: Deploy report to Github Pages
         if: always()
         uses: peaceiris/actions-gh-pages@v4
