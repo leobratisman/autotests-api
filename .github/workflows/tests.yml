@@ -49,7 +49,7 @@ jobs:
 
       # 7. Шаг для установки всех зависимостей проекта
       - name: Install dependencies
-        run: poetry install
+        run: poetry install --no-root
 
       # 8. Шаг для запуска тестов с использованием pytest и генерации отчётов Allure
       - name: Run API tests with pytest and generate Allure results
