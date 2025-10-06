@@ -11,7 +11,6 @@ on:
 jobs:
   run-tests:
     runs-on: ubuntu-latest
-
     steps:
       # 1. Шаг, который будет клонировать ваш репозиторий на машину GitHub Actions
       - name: Check out repository
@@ -61,7 +60,24 @@ jobs:
         run: |
           poetry run pytest -m regress --alluredir=allure-results --numprocesses 2
 
-      # 9. Шаг для получения истории отчётов Allure, если она существует
+      - name: 'Upload allure results'
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-results
+          path: ./allure-results
+          retention-days: 1
+
+      
+  publish_report:
+    needs: run-tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download allure results
+        uses: actions/download-artifact@v5
+        with:
+          name: allure-results
+
+      # 1. Шаг для получения истории отчётов Allure, если она существует
       - name: Get Allure history
         uses: actions/checkout@v5
         if: always()
@@ -70,7 +86,7 @@ jobs:
           ref: gh-pages
           path: gh-pages
 
-      # 10. Шаг для генерации и отображения отчёта Allure
+      # 2. Шаг для генерации и отображения отчёта Allure
       - name: Generates Allure Report with history
         uses: simple-elf/allure-report-action@v1.12
         if: always()
@@ -78,7 +94,7 @@ jobs:
           allure_results: allure-results
           allure_history: allure-history
 
-      # 11. Шаг для деплоя отчёта Allure на GitHub Pages, чтобы его можно было просматривать в браузере
+      # 3. Шаг для деплоя отчёта Allure на GitHub Pages, чтобы его можно было просматривать в браузере
       - name: Deploy report to Github Pages
         if: always()
         uses: peaceiris/actions-gh-pages@v4
